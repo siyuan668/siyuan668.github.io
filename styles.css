@@ -1,80 +1,81 @@
-/* Body */
+/* Global Styles */
 body {
-    font-family: 'Poppins', sans-serif; /* A more trendy, modern font */
+    font-family: 'Georgia', serif; /* Elegant serif font, suitable for professionals */
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Soft background for a fresh feel */
-    color: #333; /* Dark text for contrast */
+    background-color: #f8f8f8; /* Light background for a clean, academic feel */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #FF6F61; /* A bright, youthful color */
+    background-color: #003366; /* Dark, professional color */
     color: white;
     text-align: center;
-    padding: 40px 20px; /* More padding for a spacious look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-bottom: 2px solid #ff4d38; /* Slight border for separation */
+    padding: 60px 20px; /* Spacious padding for a clean look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-bottom: 2px solid #00509E; /* Subtle border for visual separation */
 }
 
 header h1 {
     margin: 0;
-    font-size: 3em; /* Larger text for emphasis */
-    letter-spacing: 2px; /* Slight spacing for modern look */
+    font-size: 3.2em; /* Large text for prominence */
     font-weight: bold;
+    letter-spacing: 1px; /* Slight spacing for a more elegant appearance */
 }
 
 header p {
-    margin: 10px 0;
-    font-size: 1.2em;
-    font-weight: lighter;
-    color: rgba(255, 255, 255, 0.8); /* Slight transparency for softer look */
+    margin: 15px 0;
+    font-size: 1.3em; /* Slightly larger text for the subtitle */
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8); /* Slight transparency for a softer effect */
 }
 
-/* Sections */
+/* Section Styles */
 section {
-    padding: 30px 20px;
-    margin: 20px;
-    background-color: #fff; /* White background for sections */
-    border-radius: 8px; /* Rounded corners for a smooth look */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 1200px; /* Centered content with max width */
+    background-color: white; /* Clean white background for sections */
+    border-radius: 8px; /* Rounded corners for a soft, professional look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* More subtle depth */
 }
 
 section h2 {
     font-size: 2.5em;
-    color: #FF6F61; /* Same vibrant color as the header */
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    color: #003366; /* Same dark color for consistency */
+    border-bottom: 2px solid #003366; /* Underline for headings */
+    padding-bottom: 10px; /* Space for visual clarity */
 }
 
 section p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555; /* Softer text for readability */
+    font-size: 1.2em;
+    color: #555; /* Softer text color for readability */
+    margin-bottom: 20px;
 }
 
 /* Links */
 a {
-    color: #FF6F61; /* Vibrant color for links */
+    color: #00509E; /* Professional blue for links */
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #D04A3C; /* Darker hover effect for interactivity */
+    color: #003366; /* Darker color on hover for interactivity */
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #003366; /* Match header color for consistency */
     color: white;
     text-align: center;
-    padding: 15px 20px;
+    padding: 20px 20px;
     font-size: 1.1em;
-    position: relative; /* Removed fixed positioning */
-    bottom: 0;
-    width: 100%;
-    border-top: 2px solid #ff4d38; /* Matching the header for consistency */
+    margin-top: 40px;
 }
 
 footer p {
@@ -84,14 +85,14 @@ footer p {
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2.5em;
+        font-size: 2.5em; /* Slightly smaller header text for mobile */
     }
-    
+
     section h2 {
         font-size: 2em;
     }
 
     footer p {
-        font-size: 1em;
+        font-size: 1em; /* Adjust footer text size */
     }
 }
