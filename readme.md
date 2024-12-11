@@ -1,11 +1,9 @@
 
 # Siyuan Huang
 
-High Schooler | AI Learner | Green Advocate Learner | Problem Solver
-
 ## About Me
 
-Hello! I'm Siyuan Huang. I am a high school student passionate about learning and exploring the field of artificial intelligence. As an AI learner, I am excited to delve into the latest technologies and innovations that shape our world. In addition to my interest in AI, I am a strong advocate for environmental sustainability and actively seek ways to promote green practices. My problem-solving skills drive me to tackle challenges creatively and effectively, whether in academics or community initiatives. I look forward to making a positive impact through my interests and efforts!
+I'm Siyuan Huang, a high school student passionate about learning and exploring deep learning and reinforcement learning to resolve environmental issues. I am excited to explore the latest technologies and innovations that shape our world in order to create sustainable solutions
 
 ## My Projects
 
