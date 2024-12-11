@@ -3,7 +3,7 @@
 
 ## About Me
 
-I'm Siyuan Huang, a high school student passionate about learning and exploring deep learning and reinforcement learning to resolve environmental issues. I am excited to explore the latest technologies and innovations that shape our world in order to create sustainable solutions
+I'm Siyuan Huang, a high school student passionate about learning and exploring deep learning and reinforcement learning to resolve environmental issues. I am excited to explore the latest technologies and innovations that shape our world in order to create sustainable solutions.
 
 ## My Projects
 
